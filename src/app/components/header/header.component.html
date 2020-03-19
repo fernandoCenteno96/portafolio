@@ -1,51 +1,51 @@
-<header class="ae-container-fluid ae-container-fluid--full rk-header ">
-    <input type="checkbox" id="mobile-menu" class="rk-mobile-menu">
-    <label for="mobile-menu">
-      <svg>
-        <use xlink:href="assets/img/symbols.svg#bar"></use>
-      </svg>
-      <svg>
-        <use xlink:href="assets/img/symbols.svg#bar"></use>
-      </svg>
-      <svg>
-        <use xlink:href="assets/img/symbols.svg#bar"></use>
-      </svg>
-    </label>
-    
-    <div class="ae-container-fluid rk-topbar">
-      <h1 class="rk-logo">
-        <a href="index.html">urku portfolio<sup>tm</sup></a>
-      </h1>
+<header class="">
 
-      <nav class="rk-navigation">
-        <ul class="rk-menu">
-          <li class="rk-menu__item"><a href="index.html" class="rk-menu__link">Home</a>
-          </li>
-          <li class="active rk-menu__item"><a href="portfolio.html" class="rk-menu__link">Portfolio</a>
-          </li>
-          <li class="rk-menu__item"><a href="blog.html" class="rk-menu__link">Blog</a>
-          </li>
-          <li class="rk-menu__item"><a href="#0" class="rk-menu__link">Pages</a>
-            <nav class="rk-menu__sub">
-              <ul class="rk-container">
-                <li class="rk-menu__item"><a href="about.html" class="rk-menu__link">About</a></li>
-                <li class="rk-menu__item"><a href="documentation.html" class="rk-menu__link">Documentation</a></li>
-                <li class="rk-menu__item"><a href="design-styles.html" class="rk-menu__link">Design Styles</a></li>
-              </ul>
-            </nav>
-          </li>
-          <li class="rk-menu__item"><a href="contact.html" class="rk-menu__link">Contact Us</a>
-          </li>
-        </ul>
-        
-        <form class="rk-search">
-          <input type="text" placeholder="Search" id="urku-search" class="rk-search-field">
-          <label for="urku-search">
-            <svg>
-              <use xlink:href="assets/img/symbols.svg#icon-search"></use>
-            </svg>
-          </label>
-        </form>
-      </nav>
+  <div class="pos-f-t">
+    <div class="collapse" id="navbarToggleExternalContent">
+      <div class="bg-dark p-4">
+        <h5 class="text-white h4">Collapsed content</h5>
+        <span class="text-muted">Toggleable via the navbar brand.</span>
+      </div>
     </div>
-  </header>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+
+      
+    </button>
+    <a class="navbar-brand text-monospace col-auto mr-auto" routerLink="home">
+        BITCS
+    </a>
+
+    <div class="collapse navbar-collapse text-monospace " id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" routerLink="home" routerLinkActive="active">Portafolio <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Instagram</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Nosotros
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" routerLink="about">Biografia</a>
+            <a class="dropdown-item" routerLink="contact">Contacto</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+       
+      </ul>
+    </div>
+    <div class="collapse navbar-collapse text-monospace justify-content-end ">
+      <p class=" navbar-nav"> <span class="navbar-nav text-secondary"><a href="" class="text-primary">@fernando96</a> | Email:<a href="#0" class="text-secondary">contact@fernando.com</a> | Guayana, Venezuela </span></p>
+    
+    </div>
+   
+
+  </nav>
+</div>
+</header>

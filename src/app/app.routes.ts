@@ -3,15 +3,17 @@ import { Routes, RouterModule } from '@angular/router';
 import  { 
             AboutComponent,
             PortafolioComponent,
-            ItemComponent
+            ItemComponent,
+            ContactComponent
         }from "./components/index.pages"
 
 
 const routes: Routes = [
-    { path: '', component: PortafolioComponent },
+    { path: 'home', component: PortafolioComponent },
     { path: 'about', component: AboutComponent },
     { path: 'producto', component: ItemComponent},
-    { path: '**', pathMatch: 'full', redirectTo: '' }
+    { path: 'contact', component: ContactComponent},
+    { path: '**', pathMatch: 'full', redirectTo: 'home' }
 
     //{ path: 'path/:routeParam', component: MyComponent },
     //{ path: 'staticPath', component: ... },
